@@ -1,6 +1,6 @@
-import Head from 'next/head'
-import PostsList from '@/components/Posts/PostsList'
-import AddPostForm from '@/components/Posts/AddPostForm'
+import Head from "next/head";
+import PostsList from "@/components/Posts/PostsList";
+import AddPostForm from "@/components/Posts/AddPostform";
 
 export default function Home() {
   return (
@@ -11,9 +11,9 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
       <main>
-        <PostsList/>
-        <AddPostForm/>
+        <AddPostForm />
+        <PostsList />
       </main>
     </>
-  )
+  );
 }
